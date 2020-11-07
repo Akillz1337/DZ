@@ -1,0 +1,15 @@
+#include <iostream>
+#include <cmath>
+
+using namespace std;
+
+int main() {
+       cout.setf(ios::fixed);
+       cout.precision(6);
+    double a, b, c, x, res, d, d2;
+    cin >> a >> b >> c;
+    d = (b*b) - (4*a*c);
+        d2 = sqrt(d);
+    x = (d2 - b) / (2*a);
+    cout << x;
+}
